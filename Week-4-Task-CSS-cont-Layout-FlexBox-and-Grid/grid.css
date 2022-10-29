@@ -1,0 +1,55 @@
+/* Grid layout styles */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  }
+main {
+  display: grid;
+  grid-template-areas: 
+  'box1 box1 box2'
+  'box3 box4 box4'
+  'box3 box5 box5'
+  ;
+  width: 35%;
+  gap: 10px;
+}
+
+/* styling the boxes */
+#box1{
+    background-color: #eb5020;
+grid-area: box1;
+position: relative;
+height: 23vh;
+}
+
+#box2{
+    background-color: #ffa401;
+    grid-area: box2;
+    padding-left: 7em;
+}
+
+#box3{
+    background-color: #05aa42;
+    grid-area: box3;
+    height: 25vh;
+    padding-right: 10em;
+}
+#box4{
+    background-color: #01aefd;
+    grid-area: box4;
+
+}
+#box5{
+    background-color: #01aefd;
+    grid-area: box5;
+
+    padding-bottom: 2em;
+}
+
+div{
+    border-radius: 2px;
+}

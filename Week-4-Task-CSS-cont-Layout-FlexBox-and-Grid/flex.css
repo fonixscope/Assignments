@@ -1,0 +1,64 @@
+/* Flex layout styles */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+/* styling the boxes */
+#firstbox {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 40px;
+}
+
+#secbox {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+}
+
+#thirdbox {
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* layout */
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+#main-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin: 15em;
+}
+
+/* mobile */
+
+@media screen and (max-width: 375px) {
+  #main-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 2em 2em 5em 2em;
+  }
+  div {
+    border-radius: 10px;
+  }
+}
+/* Desktop*/
+@media screen and (min-width: 1440px) {
+  #main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin: 15em;
+  }
+}

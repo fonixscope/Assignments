@@ -1,0 +1,60 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 35px;
+  letter-spacing: 2.5px;
+}
+
+p {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  line-height: 23px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.btn {
+  margin-top: 70px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  border: 3px solid hsl(0, 0%, 95%);
+  background-color: transparent;
+  padding: 10px 25px;
+}
+
+h2,
+.btn {
+  color: hsl(0, 0%, 95%);
+}
+img {
+  margin: 20px 0px 15px 0px;
+}
+
+/* swicth to grid or flex button */
+.switch-btn {
+  color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  border: 3px solid hsl(0, 89%, 43%);
+  padding: 10px 25px;
+  text-align: center;
+  background-color: black;
+}
+#switch-button{
+position: fixed;
+  bottom: 0px;
+  margin: 20px;
+}
+
+
