@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+h2,
+h1 {
+  margin: 1px;
+}
+
+ul {
+  margin: 10px;
+}
+
+header > p,
+h1 > a {
+  margin: 1px;
+  text-decoration: none;
+  color: white !important;
+}
+
+header {
+  background-color: rgb(2, 2, 2);
+  padding-top: 5px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+h1,
+h2,
+p,
+li,
+figcaption {
+  color: white;
+}
+hr {
+  color: white;
+}
+
+main,
+main > form > label {
+  background-color: rgb(3, 3, 3);
+  padding: 10px;
+  color: white;
+}
+
+body {
+  background-color: grey;
+}
+
+a {
+  color: rgb(88, 174, 245);
+}
+
+nav > a {
+  margin: 10px;
+}
+
+#formfields{
+    margin: 5px;
+}
+#submit{
+    border-radius: 5px;
+    border: white solid;
+    background-color: rgb(88, 174, 245);;
+    color: white;
+}
+section {
+    border: 5px solid white;
+    padding-left: 5px;
+    padding-top: 5px;
+    background-color: rgb(37, 34, 34);
+}
+
+article{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(37, 34, 34);
+}
+textarea{
+    height: 10em;
+    width: 100%;
+}
+td{
+  vertical-align: top;
+}
