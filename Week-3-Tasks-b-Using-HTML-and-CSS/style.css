@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+p {
+  font-size: x-large;
+}
+label,
+input {
+  font-size: large;
+}
+
+body {
+    background-color: rgb(5, 115, 167);
+  }
+
+  nav > a {
+    margin: 10px;
+  }
+  nav{
+    padding: 10px;
+  }
+
+  h1, h2, label, p, nav>a{
+    color: white;
+  }
+
+  body>p{
+    margin-top: 50px;
+  }
+
+  body> table>td{
+    margin: 50px;
+  }
+header>h1>a{
+  text-decoration: none;
+  color: white;
+}
+#submit {
+  border-radius: 5px;
+  border: white solid;
+  background-color: rgb(88, 174, 245);
+  color: white;
+}
+
+

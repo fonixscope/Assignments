@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration | Week 3 Task B</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1> <a href="index.html">Account System</a> </h1>
+    <nav align="right">
+      <a href="registration.html">Register</a>
+      <a href="login.html">Login</a>
+    </nav>
+    <hr />
+  </header>
+  <p align="center">
+Fill the form below to register  </p>
+  <form action="success-register.html">
+    <table align="center">
+
+      <!--
+            <tr>
+                <th width="5%"></th>
+                <th width="20%"></th>
+            </tr>
+
+            -->
+
+      <tr>
+        <td>
+          <label for="fname">First Name:</label>
+        </td>
+        <td>
+          <input type="text" placeholder="Enter first Name" name="fname" maxlength="20" minlength="2" required />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="lname">Last Name:</label>
+        </td>
+        <td>
+          <input type="text" placeholder="Enter last name" name="lname" maxlength="20" minlength="2" required>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="phone">Phone:</label></td>
+        <td><input type="tel" id="phone" placeholder="0816467899" name="phone" pattern="[0-9]{4}[0-9]{3}[0-9]{4}"
+            required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" name="email" id="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="gender">Gender:</label></td>
+        <td><select name="gender" id="gender" required>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><label for="DOB">Date of birth:</label></td>
+        <td><input type="date" max="2002-01-01" min="1960-01-01" required name="DOB"></td>
+      </tr>
+      <tr>
+        <td><label for="favcolor">Favorite color:</label></td>
+        <td><input type="color" name="favcolor" value="#000000" required></td>
+      </tr>
+
+      <tr>
+        <td colspan="2" align="center"><input type="submit" value="Register" id="submit"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+
+</html>
